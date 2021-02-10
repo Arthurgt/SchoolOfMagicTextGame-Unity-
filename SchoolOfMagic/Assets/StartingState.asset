@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d995769541e8fc439138397bdb8c9de, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to the School of Magic. Hit 1,2,3 or 4 to start your journey.
+
+    
+
+'
+  choice1: 1 - Begin your journey.
+  choice2: 2 - Begin your journey.
+  choice3: 3 - Begin your journey.
+  choice4: 4 - Begin your journey.
+  nextStates:
+  - {fileID: 11400000, guid: 040a95d08004d06458ed591d5b772dd3, type: 2}
+  - {fileID: 11400000, guid: 040a95d08004d06458ed591d5b772dd3, type: 2}
+  - {fileID: 11400000, guid: 040a95d08004d06458ed591d5b772dd3, type: 2}
+  - {fileID: 11400000, guid: 040a95d08004d06458ed591d5b772dd3, type: 2}
